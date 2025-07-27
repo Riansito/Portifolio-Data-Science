@@ -26,7 +26,7 @@ Este projeto tem como objetivo prever quais clientes de um banco têm maior prob
 * **Avaliação:** uso de métricas como AUC-ROC, F1-Score, Matriz de Confusão, importância de variáveis.
 * **Resultados:** Identificação de clientes de risco e sugestões de estratégias de retenção.
 
-🔗 [Ver projeto](https://github.com/Riansito/Previsao-Churn-Clientes)
+🔗 [Ver projeto](https://github.com/Riansito/Analise-_de_Churn_CLientes)
 
 ---
 
@@ -48,7 +48,7 @@ O objetivo deste projeto é construir um modelo capaz de prever os custos com se
 * **Métricas:** MAE, MSE e R² para avaliação dos modelos.
 * **Insights:** Fumantes e pacientes mais velhos apresentam custos significativamente mais altos.
 
-🔗 [Ver projeto](https://github.com/Riansito/Regressao-Seguros)
+🔗 [Ver projeto](https://github.com/Riansito/Analise-de-Custos-de-Seguro-Saude-Modelagem-Preditiva)
 
 ---
 
@@ -70,7 +70,7 @@ Este projeto realiza uma clusterização de clientes com base em seu comportamen
 * **Avaliação dos agrupamentos:** Silhouette Score, Calinski-Harabasz e Davies-Bouldin.
 * **Resultados:** 4 clusters distintos com recomendações como: empréstimos, poupança, gestão de patrimônio e educação financeira.
 
-🔗 [Ver projeto](https://github.com/Riansito/Clusterizacao-Clientes)
+🔗 [Ver projeto](https://github.com/Riansito/Cluster-de-Clientes)
 
 ---
 
@@ -88,7 +88,7 @@ Neste projeto, desenvolvi uma rede neural convolucional (CNN) para classificar i
 
 * **Arquitetura da CNN:** camadas convolucionais, pooling, dropout e ativação sigmoide na saída.
 * **Dataset utilizado:** Chest X-Ray Images (Pneumonia).
-* **Treinamento:** com data augmentation e validação cruzada.
+* **Treinamento:** fit nos dados de treino e validação
 * **Interface web:** formulário para cadastro, upload de imagem e envio de resultado por e-mail.
 * **Deploy local:** com Flask, usando o modelo `.h5` treinado.
 
@@ -130,8 +130,7 @@ Projeto completo desde o tratamento dos dados até o deploy final de um modelo d
 ## 🌐 Contato
 
 * 📧 Email: [rianfreires@gmail.com](mailto:rianfreires@gmail.com)
-* 🔗 LinkedIn: [linkedin.com/in/rianfreires](https://www.linkedin.com/in/rianfreires)
-* 📁 [Portfólio Python e SQL no GitHub](https://github.com/Riansito)
+* 🔗 LinkedIn: [linkedin.com/in/rianfreires](www.linkedin.com/in/rian-freires-da-costa-silva-798813324)
 * 📊 [Portfólio Power BI](https://sites.google.com/view/portifliorianpowerbi/in%C3%ADcio)
 * 📃 [Portfólio Excel](https://sites.google.com/view/portiflioexcelrian/in%C3%ADcio)
 
