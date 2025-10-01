@@ -70,7 +70,7 @@ O objetivo deste projeto é construir um modelo capaz de prever o preço de carr
 * **Limpeza e preparação de dados:** tratamento de valores faltantes, outliers, codificação de variáveis categóricas.
 * **EDA e visualizações:** análise detalhada de preços, quilometragem, ano e avaliações, utilizando gráficos como boxplots, histogramas e heatmaps.
 * **Clusterização de veículos:** uso de K-Means para criar clusters como Carros Premium, Carros Custo-Benefício, Carros Luxos e Carros Populares. Os clusters foram usados também como **variáveis explicativas na regressão**, ajudando o modelo a capturar perfis de veículos.
-* **Modelos utilizados:** Decision Tree Regressor, Random Forest, XGBoost, LGBM e Stacking Regressor.
+* **Modelos utilizados:** Decision Tree Regressor, Random Forest, XGBoost, LGBM.
 * **Ajuste de Hiperparâmetros:** RandomizedSearchCV para otimização de cada modelo, melhorando métricas como RMSE, MAE e R².
 * **Métricas:** avaliação com R², RMSE, MAE e MSE para comparar performance dos modelos.
 * **Insights:** veículos mais recentes e com baixa quilometragem são consistentemente mais caros; clusters ajudam a diferenciar perfis de mercado e melhoram a previsão do preço.
