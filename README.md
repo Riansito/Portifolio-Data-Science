@@ -51,26 +51,31 @@ O objetivo deste projeto é construir um modelo capaz de prever os custos com se
 🔗 [Ver projeto](https://github.com/Riansito/Analise-de-Custos-de-Seguro-Saude-Modelagem-Preditiva)
 
 ---
+Claro! Aqui está uma versão do seu projeto de **precificação de carros usados** seguindo o mesmo padrão:
 
-### 📊 **Clusterização — Segmentação de Clientes para Produtos Financeiros**
+---
 
-Este projeto realiza uma clusterização de clientes com base em seu comportamento de uso do cartão de crédito, buscando identificar perfis distintos para campanhas financeiras personalizadas.
+### 🚗 **Regressão/Cluster — Precificação de Carros Usados**
+
+O objetivo deste projeto é construir um modelo capaz de prever o preço de carros usados com base em características como ano, quilometragem, avaliações de motoristas, tipo de combustível, transmissão, tração e clusters de veículos.
 
 🔍 **Objetivos principais:**
 
-* Agrupar clientes com base em características de consumo.
-* Oferecer produtos financeiros adequados ao perfil de cada grupo.
-* Ajudar a área comercial na tomada de decisões estratégicas.
+* Prever o preço estimado de carros usados com boa precisão.
+* Entender o impacto de características do veículo e do mercado no preço.
+* Oferecer insights sobre segmentação de veículos para suporte a decisões de compra, venda e marketing.
 
 ⚙️ **Principais etapas:**
 
-* **Pré-processamento e normalização:** para tratamento de variáveis com diferentes escalas.
-* **Redução de dimensionalidade com PCA:** para melhor visualização dos clusters.
-* **Modelos testados:** K-Means (modelo final), DBSCAN e Gaussian Mixture.
-* **Avaliação dos agrupamentos:** Silhouette Score, Calinski-Harabasz e Davies-Bouldin.
-* **Resultados:** 4 clusters distintos com recomendações como: empréstimos, poupança, gestão de patrimônio e educação financeira.
+* **Limpeza e preparação de dados:** tratamento de valores faltantes, outliers, codificação de variáveis categóricas.
+* **EDA e visualizações:** análise detalhada de preços, quilometragem, ano e avaliações, utilizando gráficos como boxplots, histogramas e heatmaps.
+* **Clusterização de veículos:** uso de K-Means para criar clusters como Carros Premium, Carros Custo-Benefício, Carros Luxos e Carros Populares. Os clusters foram usados também como **variáveis explicativas na regressão**, ajudando o modelo a capturar perfis de veículos.
+* **Modelos utilizados:** Decision Tree Regressor, Random Forest, XGBoost, LGBM e Stacking Regressor.
+* **Ajuste de Hiperparâmetros:** RandomizedSearchCV para otimização de cada modelo, melhorando métricas como RMSE, MAE e R².
+* **Métricas:** avaliação com R², RMSE, MAE e MSE para comparar performance dos modelos.
+* **Insights:** veículos mais recentes e com baixa quilometragem são consistentemente mais caros; clusters ajudam a diferenciar perfis de mercado e melhoram a previsão do preço.
 
-🔗 [Ver projeto](https://github.com/Riansito/Cluster-de-Clientes)
+🔗 [Ver projeto](https://github.com/Riansito/Precificacao_Carros_ML.git)
 
 ---
 
