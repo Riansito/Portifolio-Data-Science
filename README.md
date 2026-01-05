@@ -138,6 +138,7 @@ Projeto completo desde o tratamento dos dados até o deploy final de um modelo d
 * 🔗 LinkedIn: [linkedin.com/in/rianfreires](www.linkedin.com/in/rian-freires-da-costa-silva-798813324)
 * 📊 [Portfólio Power BI](https://sites.google.com/view/portifliorianpowerbi/in%C3%ADcio)
 * 📃 [Portfólio Excel](https://sites.google.com/view/portiflioexcelrian/in%C3%ADcio)
+* 📊 [Portifólio Analise de Dados](https://github.com/Riansito/Portifoli_Analista_de_Dados)
 
 ---
 
